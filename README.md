@@ -28,4 +28,4 @@ npm run build
 npm run deploy
 ```
 
-This project is configured with `base: '/funnyFun/'` for deployment to the `CrownImperial27/funnyFun` repository's GitHub Pages site.
+This project uses a relative Vite base path (`base: './'`) so the built app works reliably on GitHub Pages and other hosting paths.
