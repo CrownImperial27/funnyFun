@@ -1,0 +1,88 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  margin-bottom: 0.5rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.cheese-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.cheese-card {
+  border: 1px solid #e2e2e2;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background: #fffdf8;
+}
+
+.cheese-card h3 {
+  margin-top: 0;
+}
+
+.cheese-card dl {
+  margin: 0;
+}
+
+.cheese-card dt {
+  font-weight: 600;
+}
+
+.cheese-card dd {
+  margin: 0 0 0.75rem;
+}
+
+.quiz {
+  border: 1px solid #e2e2e2;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background: #fff;
+}
+
+.question {
+  font-weight: 600;
+}
+
+.options {
+  display: grid;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.6rem;
+  border: 1px solid #222;
+  background: #fff;
+  cursor: pointer;
+}
+
+button.selected {
+  background: #ffe59d;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.next-button,
+.result button {
+  background: #222;
+  color: #fff;
+  border-color: #222;
+}
